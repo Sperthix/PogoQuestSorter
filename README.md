@@ -1,17 +1,13 @@
 # Coordinate Visualization and Sorting
 
 This project allows you to sort GPS coordinates and visualize them on an interactive map. It also lets you copy the coordinates to your clipboard by clicking on the corresponding point on the map.
+Currently its automaticaly setup for NYC manhattan island
 
 ## How to Use
 
 ### 1. Add New File
 
-Put the file containing the coordinates you want to sort into the `input` folder. Ensure the coordinates are in the format:
-
-## latitude, longitude
-40.779028, -73.950583
-40.739083, -73.976083
-40.746694, -74.007611
+Put the file containing the coordinates you want to sort into the `input` folder.
 
 ### 2. Run the Sorting Script
 
@@ -34,7 +30,7 @@ After running the command, open your browser and go to:
 
 http://localhost:8000
 
-4. Interact with the Map
+### 4. Interact with the Map
 Click on any point to copy its coordinates to the clipboard.
 The first point in the sorted list will be highlighted to indicate the starting point of your route.
 Points are connected with a line to visualize the optimal route.
